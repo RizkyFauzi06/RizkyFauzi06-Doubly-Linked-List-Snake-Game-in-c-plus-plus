@@ -5,7 +5,7 @@ A classic Snake game developed in C++ using Raylib for rendering. Rather than re
 
 ## Gameplay
 
-![Gameplay Demo](screenshoot\Gameplay.gif)
+![Gameplay Demo](screenshoot/Gameplay.gif)
 
 ## Architecture Highlights
 
