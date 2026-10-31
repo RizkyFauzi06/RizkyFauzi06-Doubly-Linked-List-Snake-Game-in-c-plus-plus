@@ -28,7 +28,7 @@ class Food{
     Texture2D GambarApel; // untuk dapat mengeload texturea gambar apel
 
     Food(){
-        GambarApel = LoadTexture("Apel.png"); // mwngload gambar apel dari file
+        GambarApel = LoadTexture("assets/Apel.png"); // mwngload gambar apel dari file
     }
 
     ~Food() {
@@ -71,9 +71,9 @@ class Snake{
         ArahSekarang = {-1,0}; // arah default
 
         // laod texture
-        GambarKepala = LoadTexture("Head.png");
-        GambarBadan = LoadTexture("Body.png");
-        GambarEkor = LoadTexture("Tail.png");
+        GambarKepala = LoadTexture("assets/Head.png");
+        GambarBadan = LoadTexture("assets/Body.png");
+        GambarEkor = LoadTexture("assets/Tail.png");
     }
 
     ~Snake() { // uncostructor ? agar load texture snake nya hilang setelah di close
@@ -238,8 +238,8 @@ int main() {
     InitAudioDevice(); //  biar ada suara nya game nya
     SetTargetFPS(10); 
     
-    Sound suaraMakan = LoadSound("Eat.mp3"); //  nge load suara game
-    Sound suaraMati = LoadSound("GameOver.mp3");
+    Sound suaraMakan = LoadSound("assets/Eat.mp3"); //  nge load suara game
+    Sound suaraMati = LoadSound("assets/GameOver.mp3");
     
     Food apel;
     Snake ular;
