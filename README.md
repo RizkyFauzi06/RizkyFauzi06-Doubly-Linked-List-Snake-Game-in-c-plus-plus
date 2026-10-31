@@ -5,9 +5,7 @@
   <h3>Classic Snake Game using C++ and Raylib</h3>
 
   <p>
-    A simple 2D Snake Game built with C++ and Raylib,
-    featuring linked-list-based movement, collision detection,
-    and a score tracking system.
+    A classic Snake game developed in C++ using Raylib. Instead of relying on traditional array-based body management, the game uses a custom Doubly Linked List to represent the snake dynamically in memory, enabling efficient movement and growth through constant-time node insertion and deletion.
   </p>
 
   <p>
